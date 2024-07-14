@@ -1,6 +1,5 @@
-// Learning C++ 
-// Challenge 05_04
-// Create a Report Card Function, by Eduardo Corpeño 
+// Project for learning C++ 
+// Challange was creating a satabase of students, grades and classes anf printing the student record card + writing a record card into a file.
 
 #include <iostream>
 #include <vector>
@@ -24,6 +23,9 @@ int main(){
     return (0);
 }
 
+
+
+// choose for initializing data for creating a file with the student record
 void initialize(StudentRecords& srec){
     // Uploading students data
     std::ifstream inFile;
@@ -73,6 +75,7 @@ void initialize(StudentRecords& srec){
 
 }
 
+// choose for initializing data for printing the student record
 // void initialize(StudentRecords& srec){
 //     srec.add_student(1, "George P. Burdell");
 //     srec.add_student(2, "Nancy Rhodes");
